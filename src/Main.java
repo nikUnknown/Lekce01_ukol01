@@ -30,6 +30,7 @@ public class Main {
         }
         System.out.println(cena);
         // Má vypsat "1.0". Ale vypíše "0.9999" !!!
+        // Po zmene double na BigDecimal atd se vypisuje 1.0
     }
 
     public static void ukol6() {
